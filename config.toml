@@ -1,0 +1,28 @@
+[plugin]
+enabled = false
+config_version = "0.2.1"
+access_token = ""
+
+[generation]
+model = "replyer"
+model_temperature = 0.3
+max_retries = 2
+output_base_dir = "plugins/generated"
+llm_timeout_seconds = 25
+
+[safety]
+require_confirmation = true
+forbidden_imports = "os,subprocess,socket,sys,ctypes,multiprocessing,pickle,marshal,importlib"
+max_file_size_bytes = 204800
+
+[custom_api]
+enabled = false
+api_url = ""
+api_key = ""
+model = ""
+
+[operator_whitelist]
+enabled = true
+allowed_users = ""
+allowed_streams = ""
+reject_message = "你没有权限使用此插件，请联系管理员将你的 ID 加入白名单"

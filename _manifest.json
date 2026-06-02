@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "id": "deepseek-v4-pro.self-writing-plugin",
+  "version": "0.2.1",
+  "name": "插件自生成器",
+  "description": "让麦麦根据自然语言描述自动生成 MaiBot 插件代码，生成后可预览、确认或拒绝",
+  "author": {
+    "name": "DeepSeek-V4",
+    "url": "https://github.com/DeepSeek-V4-Pro"
+  },
+  "license": "GPL-3.0-or-later",
+  "urls": {
+    "repository": "https://github.com/DeepSeek-V4-Pro/self_writing_plugin",
+    "homepage": "https://github.com/DeepSeek-V4-Pro/self_writing_plugin",
+    "documentation": "https://github.com/DeepSeek-V4-Pro/self_writing_plugin",
+    "issues": "https://github.com/DeepSeek-V4-Pro/self_writing_plugin/issues"
+  },
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "1.99.99"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "capabilities": [
+    "llm.generate",
+    "send.text",
+    "send.forward",
+    "config.get"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": ["zh-CN"]
+  }
+}
