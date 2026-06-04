@@ -1,4 +1,4 @@
-# 插件自生成器 (Self-Writing Plugin) v0.2.1
+# 插件自生成器(测试版) (Self-Writing Plugin) v0.2.1
 
 > **让麦麦根据自然语言描述自动生成 MaiBot 插件代码。**
 >
